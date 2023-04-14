@@ -39,7 +39,7 @@ class _MyhomePageState extends State<MyhomePage> {
       ),
       body: Text(
         widget.message,
-        style: TextStyle(fontSize: 32),
+        style: TextStyle(fontSize: 35),
       ),
     );
   }
