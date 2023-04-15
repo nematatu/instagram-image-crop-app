@@ -54,7 +54,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
                 Container(
                   child: Text(
-                    'を出したよ！',
+                    'を出したよ!!!!',
                     style: TextStyle(
                       fontSize: 50,
                     ),
