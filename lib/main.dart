@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 
 void main() => runApp(Myapp());
 
@@ -36,15 +37,30 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisSize: MainAxisSize.max,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: <Widget>[
-            Container(
-              padding: EdgeInsets.all(20.0),
-              child: Text(
-                _message,
-                style: TextStyle(
-                    fontSize: 20,
-                    fontWeight: FontWeight.w400,
-                    fontFamily: "Roboto"),
-              ),
+            Column(
+              mainAxisAlignment: MainAxisAlignment.start,
+              mainAxisSize: MainAxisSize.max,
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: <Widget>[
+                Container(
+                  padding: EdgeInsets.all(20),
+                  child: Text(
+                    _message,
+                    style: TextStyle(
+                        fontSize: 70,
+                        fontWeight: FontWeight.w400,
+                        fontFamily: "Roboto"),
+                  ),
+                ),
+                Container(
+                  child: Text(
+                    'を出したよ！',
+                    style: TextStyle(
+                      fontSize: 50,
+                    ),
+                  ),
+                ),
+              ],
             ),
             TextButton(
               onPressed: ButtonPressed,
