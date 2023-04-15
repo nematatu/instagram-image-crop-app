@@ -1,0 +1,1 @@
+"print('niku ga suki')" 
