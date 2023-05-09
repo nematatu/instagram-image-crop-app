@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "440593481295",
+    "project_id": "insta-sscrip",
+    "storage_bucket": "insta-sscrip.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:440593481295:android:27d0b88e61fc751f35b43a",
+        "android_client_info": {
+          "package_name": "com.example.insta_sscrip"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "440593481295-egh4haatgq02phq6jf5uiin2tcflkbmo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAKH_rZviqFl4Dhkrq8SUBtTXkrmAZZ00"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "440593481295-egh4haatgq02phq6jf5uiin2tcflkbmo.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "440593481295-hb5367916qpjtprllqv0n48ag3gca9k4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.instaSscrip"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
